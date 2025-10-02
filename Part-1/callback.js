@@ -21,8 +21,16 @@ function task3 (callback){
 
 task1(()=>{
     task2(()=>{
-        task3(()=>{
-            
-        })
+
     })
 })
+
+function output(result) {
+    console.log("The result is " + result);
+}
+function add(x, y, callback) {
+    let sum = x + y;
+    callback(sum);
+}
+
+add(5, 3, output);
