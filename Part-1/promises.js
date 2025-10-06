@@ -42,5 +42,7 @@ const mathNumber = new Promise((resolve, reject) => {
     }, 2000);
 });
 
+//first the state will be pending then a result will be displayed
+
 
 console.log(mathNumber);
