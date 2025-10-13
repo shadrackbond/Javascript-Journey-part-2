@@ -12,7 +12,7 @@ p, h5 {
     width: 414px;
     height: 420px;
     display: block;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     padding: 40px 0;
     overflow: hidden;
@@ -35,7 +35,7 @@ p, h5 {
 );
 }
 
-#search-bar {
+#searchBar {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
@@ -43,12 +43,12 @@ p, h5 {
     color: #fff;
 }
 
-#search-bar-input {
+#searchBarInput {
     background-color: none;
     border: none;
     outline: none;
     width: 90%;
-    background: none;
+    background: transparent;
     font-size: 1.4rem;
     color: #fff;
     border-bottom: solid 1px lightblue ;
@@ -56,14 +56,25 @@ p, h5 {
 
 input::placeholder {
     color: #fff;
-    opacity: .6;
+    opacity: 0.6;
 }
 
-#search-icon {
+#searchIcon {
     border: none;
     background-color: transparent;
     color: #fff;
     font-size: 1.5rem;
+}
+
+#extraInfo {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: black 2px;
+    color: #fff;
+    padding-bottom: 30px;
 }
 
 #info {
@@ -96,7 +107,7 @@ input::placeholder {
     margin-bottom: 300px;
 }
 
-#temp-img {
+#tempImg {
     margin-bottom:-30px;
 }
 
@@ -119,22 +130,13 @@ input::placeholder {
     font-weight: 300;
 }
 
-.extra-info {
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    border: black 2px;
-    color: #fff;
-    padding-bottom: 30px;
-}
 
-.extra-info h5 {
+
+#extraInfo h5 {
     font-size: 1.1rem;
     text-transform: uppercase;
 }
 
-.extra-info p {
+#extraInfo p {
     font-size: 1.7rem;
 }
