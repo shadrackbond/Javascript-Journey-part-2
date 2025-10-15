@@ -82,15 +82,22 @@ input::placeholder {
     color: #fff;
 }
 
-#info h4 {
+#info h3 {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 2rem;
+    margin: .6em;
 }
 
-#info .description {
+#description {
     text-transform: uppercase;
+    color: #fff;
+}
+
+#temp {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
 }
 
 #temperature {
@@ -111,14 +118,8 @@ input::placeholder {
     margin-bottom:-30px;
 }
 
-#description {
-    color: #fff;
-}
 
-#temp {
-    font-size: 2rem;
-    color: #fff;
-}
+
 
 #temperature p {
     font-size: 14px;
